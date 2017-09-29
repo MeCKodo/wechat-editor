@@ -1,6 +1,6 @@
 {
   "name": "we-editor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "微信公众号富文本编辑器",
   "main": "index.js",
   "author": "二哲",
