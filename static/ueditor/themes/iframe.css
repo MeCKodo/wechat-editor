@@ -1,0 +1,15 @@
+/*可以在这里添加你自己的css*/
+body {
+    padding: 8px 15px !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+blockquote {
+    margin: 0;
+    padding-left: 10px;
+    border-left: 3px solid #dbdbdb;
+}
