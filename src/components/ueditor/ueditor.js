@@ -44,7 +44,7 @@ export default {
         this.$emit('ready', this.ue);
       });
       this.ue.addListener('contentChange', () => {
-        this.$emit('change', this.ue.getContent());
+        this.$emit('change', this.ue.body.innerHTML);
       });
       this.ue.addListener('destroy', () => {
         this.$emit('destroy');
