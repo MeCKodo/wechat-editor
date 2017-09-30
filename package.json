@@ -1,5 +1,5 @@
 {
-  "name": "we-editor",
+  "name": "wechat-editor",
   "version": "0.0.1",
   "description": "微信公众号富文本编辑器",
   "main": "index.js",
@@ -12,7 +12,6 @@
     "editor",
     "wechat"
   ],
-  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/MeCKodo/we-editor/issues"
   },
@@ -69,5 +68,6 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "license": "GPL-3.0"
 }
