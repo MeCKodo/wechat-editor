@@ -404,8 +404,8 @@ div.edui-box {
 .edui-default .edui-menuitem .edui-icon {
     width: 20px !important;
     height: 20px !important;
-    background: url(../images/icons_wx.png) 0 -4000px;
-    background: url(../images/icons.gif) 0 -4000px\9;
+    /*background: url(../images/icons_wx.png) 0 -4000px;*/
+    /*background: url(../images/icons.gif) 0 -4000px\9;*/
 }
 
 .edui-default .edui-menuitem .edui-label {
@@ -601,6 +601,7 @@ div.edui-box {
 }
 
 .edui-default  .edui-for-justifyjustify .edui-icon {
+    background: url(../images/icons_wx.png) 0 -4000px;
     background-position: 0 -402px;
 }
 
@@ -1574,8 +1575,8 @@ div.edui-box {
     float: right;
     margin-right: 1px;
     font-size: 12px;
-    line-height: 14px;
-    height: 14px;
+    line-height: 15px;
+    height: 20px;
     border: 1px solid #333;
     padding: 3px 5px;
     cursor: pointer;

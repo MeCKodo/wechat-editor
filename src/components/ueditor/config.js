@@ -8,6 +8,18 @@ export default {
   elementPathEnabled: false, // 元素路径
   fontsize: [10, 11, 12, 14, 16, 18, 20, 24],
   wordCount: false, // 字数统计
+  insertorderedlist: {
+    decimal: '', // '1,2,3...'
+    'lower-alpha': '', // 'a,b,c...'
+    'lower-roman': '', // 'i,ii,iii...'
+    'upper-alpha': '', // 'A,B,C'
+    'upper-roman': '', // 'I,II,III...'
+  },
+  insertunorderedlist: {
+    circle: '', // ○ 小圆圈
+    disc: '',   // ● 小圆点
+    square: '', // ■ 小方块
+  },
   toolbars: [
     [
       'undo', // 撤销
