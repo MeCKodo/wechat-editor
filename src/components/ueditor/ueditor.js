@@ -31,10 +31,10 @@ export default {
     if (this.config && this.config.toolbars) {
       Reflect.deleteProperty(this.config, 'toolbars');
     }
-    this.ueConfig = Object.assign({}, UE_CONFIG, this.config || {});
-    // height和width的优先级 高于 config
     this.ueConfig.initialFrameWidth = this.width;
     this.ueConfig.initialFrameHeight = this.height;
+    // config设置宽高的优先级 高于 height和width
+    this.ueConfig = Object.assign({}, UE_CONFIG, this.config || {});
     this.$emit('created');
   },
   mounted() {
@@ -44,7 +44,7 @@ export default {
         this.$emit('ready', this.ue);
       });
       this.ue.addListener('contentChange', () => {
-        this.$emit('change', this.ue.body.innerHTML);
+        this.$emit('change', this.ue.getContent());
       });
       this.ue.addListener('destroy', () => {
         this.$emit('destroy');
