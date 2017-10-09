@@ -1,6 +1,6 @@
 {
   "name": "wechat-editor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "微信公众号富文本编辑器",
   "main": "index.js",
   "author": "二哲",
